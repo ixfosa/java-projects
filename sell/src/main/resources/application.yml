@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/sell?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: ixfosa
+    type: com.alibaba.druid.pool.DruidDataSource
+  jpa:
+    show-sql: true
+  jackson:
+    default-property-inclusion: non_null
+
+server:
+  context-path: /sell
